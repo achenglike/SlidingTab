@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 可滑动TAB相关自定义属性 -->
+    <declare-styleable name="SlidingTab">
+
+        <!-- 是否包含底部滑动条 -->
+        <attr name="has_bottom_indicator" format="boolean" />
+        <!-- 底部滑动条的高度 -->
+        <attr name="indicator_thickness" format="reference|dimension" />
+        <!-- 标题栏之间是否含分割线 -->
+        <attr name="has_title_divider" format="boolean" />
+        <!-- 分割线的宽度 -->
+        <attr name="divider_thickness" format="reference|dimension" />
+        <!-- TAB选项卡标题的字体大小 -->
+        <attr name="title_text_size" format="reference|dimension" />
+        <!-- 标题文字默认颜色 -->
+        <attr name="title_text_default_color" format="reference|color" />
+        <!-- TAB标题是否横向充满 -->
+        <attr name="title_tab_horizontal_match" format="boolean" />
+        <!-- TAB标题水平之间偏移量 -->
+        <attr name="title_tab_horzontal_padding" format="reference|dimension" />
+        <!-- TAB的高度 -->
+        <attr name="tab_height" format="reference|dimension" />
+        <!-- 底部滑动条颜色 -->
+        <attr name="bottom_indicator_color" format="reference|color" />
+        <!-- 选中文字颜色 -->
+        <attr name="selected_text_color" format="reference|color" />
+        <!-- 整个slidingTabLayout左边padding值 -->
+        <attr name="left_padding" format="reference|dimension" />
+        <!-- 整个slidingTabLayout右边padding值-->
+        <attr name="right_padding" format="reference|dimension" />
+    </declare-styleable>
+</resources>
